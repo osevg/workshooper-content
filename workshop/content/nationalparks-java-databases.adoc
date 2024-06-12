@@ -42,9 +42,10 @@ version control system.
 
 In this step we will create a ImageStream object, which is a reference to the container image of the database.
 
----
+[source,bash,role=execute-1]
+----
 oc create -f https://raw.githubusercontent.com/renatoppuccini/getting-started/main/mongoldb-imagestream.yaml
----
+----
 
 == Exercise: Instantiate a MongoDB Template
 
