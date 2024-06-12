@@ -38,6 +38,13 @@ be deployed with a single command.  Not only that, they can be loaded into
 OpenShift from an external URL, which will allow you to keep your templates in a
 version control system. 
 
+== Exercise: Create the MongoDB ImageStream on the cluster
+
+In this step we will create a ImageStream object, which is a reference to the container image of the database.
+
+---
+oc create -f https://raw.githubusercontent.com/renatoppuccini/getting-started/main/mongoldb-imagestream.yaml
+---
 
 == Exercise: Instantiate a MongoDB Template
 
